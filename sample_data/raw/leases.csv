@@ -1,0 +1,5 @@
+lease_id,property_id,tenant_id,tenant_name,lease_start_date,lease_end_date,leased_square_feet,monthly_rent
+L1000,P100,T001,Northstar Finance,2024-01-01,2028-12-31,25000,82000.00
+L1001,P100,T002,Coastal Legal Group,2024-06-01,2027-05-31,12000,39000.00
+L2000,P200,T003,Pacific Coffee Co,2023-09-01,2026-08-31,4500,14000.00
+L3000,P300,T004,Desert Logistics,2025-01-01,2030-12-31,90000,110000.00

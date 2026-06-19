@@ -1,0 +1,4 @@
+property_id,property_name,property_type,city,state,square_feet,active_flag
+P100,Harbor Tower,Office,San Diego,CA,250000,Y
+P200,Mission Retail Center,Retail,San Diego,CA,85000,Y
+P300,Mesa Industrial Park,Industrial,Phoenix,AZ,410000,Y

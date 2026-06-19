@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.env
+.venv/
+venv/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Local data outputs
+output/
+tmp/
+
+# OS
+.DS_Store
+Thumbs.db

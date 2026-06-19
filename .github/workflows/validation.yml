@@ -1,0 +1,34 @@
+name: Repository Validation
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  validate-repo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Validate required files
+        run: |
+          test -f README.md
+          test -f docs/project_case_study.md
+          test -f docs/validation_checklist.md
+          test -f docs/deployment_checklist.md
+          test -f notebooks/01_bronze_ingestion.py
+          test -f notebooks/02_silver_cleaning.py
+          test -f notebooks/03_gold_modeling.py
+          test -f notebooks/04_data_validation.py
+          test -f sql/create_logging_table.sql
+          test -f sql/create_watermark_table.sql
+
+      - name: Confirm sample data exists
+        run: |
+          test -f sample_data/raw/properties.csv
+          test -f sample_data/raw/leases.csv
+          test -f sample_data/raw/rent_payments.csv

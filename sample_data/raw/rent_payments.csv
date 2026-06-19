@@ -1,0 +1,5 @@
+payment_id,lease_id,payment_date,payment_amount,payment_status
+PAY001,L1000,2026-01-05,82000.00,Paid
+PAY002,L1001,2026-01-07,39000.00,Paid
+PAY003,L2000,2026-01-10,14000.00,Late
+PAY004,L3000,2026-01-04,110000.00,Paid
