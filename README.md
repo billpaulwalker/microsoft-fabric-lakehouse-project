@@ -17,14 +17,6 @@ The project shows how legacy SQL Server / SSIS / Azure Data Factory-style data m
 - Power BI-ready dimensional modeling
 - Dev/Test/Prod deployment thinking
 
-## Branding Purpose
-
-This project is designed to support the LinkedIn Featured item:
-
-**Microsoft Fabric Lakehouse Project**
-
-It demonstrates the ability to design, build, explain, and productionize a modern data platform rather than simply list tools on a resume.
-
 ## Business Scenario
 
 A commercial real estate organization receives data from operational source systems, Excel/CSV extracts, and API feeds. The business needs trusted reporting for Finance, Accounting, and Operations.
